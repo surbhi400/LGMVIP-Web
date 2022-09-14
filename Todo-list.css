@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-font-size: 20px;
+    overflow-x: hidden;
+    font-size: 20px;
  
     
    
@@ -19,22 +19,21 @@ h1{
     
 }
 
-
+/*#f7797d */
     
 
 body{
-    height: auto;
-    width: auto;
+ 
    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    background-image: url(Images/maple-leaf-border-background-orange-watercolor-autumn-season.jpg);
-   background-size:1540px 1500px ;
+    background-image: linear-gradient(to right,coral ,#fbd786,#c6ffdd);
+    /* background-image: url(Images/maple-leaf-border-background-orange-watercolor-autumn-season.jpg);
+   background-size: cover;
     background-repeat: no-repeat;
-overflow: hidden;
- 
+
+  */
 
     
 
@@ -46,6 +45,7 @@ overflow: hidden;
    background-color: coral;
     border-radius: 15px;
     border: 2px solid black;
+    overflow-y: hidden;
     
 }
 .main-list{
@@ -75,6 +75,7 @@ overflow: hidden;
     cursor:pointer
 }
 
+
 .task-list {
     width: 462px;
     height: 30px;
@@ -89,11 +90,12 @@ overflow: hidden;
     margin-top: 24px;
     text-decoration: underline 2px;
 }
+
 .tasks{
     display: flex;
     gap: 13px;
-    grid-template-columns: 3fr 2fr 2fr;
-height: 30px;
+    grid-template-columns: 3fr 1fr 1fr;
+   height: 30px;
 }
 
 .typed-text {
@@ -111,9 +113,9 @@ height: 30px;
 .done{
     background-color: teal;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 6px;
-    width: 77px;
+    width: 70px;
     height: 30px;
    
     
@@ -126,10 +128,10 @@ height: 30px;
 .del {
     background-color: teal;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 6px;
-     width: 70px;
-        height: 30px;
+     width: 80px;
+    height: 30px;
        
 }
 
@@ -149,14 +151,13 @@ height: 30px;
 
 
 .task-lists {
-    width: 462px;
-    height: 35px;
-    padding: 20px;
-    margin-top: 25px;
-    background-color: coral;
-    border-radius: 15px;
-    border: 2px solid black;
-
+    width: 470px;
+        height: 30px;
+        padding: 20px;
+        background-color: coral;
+        border-radius: 15px;
+        border: 2px solid black;
+        margin-top: 15px;
 
 }
 
@@ -188,4 +189,108 @@ height: 30px;
     background-color: rgb(169, 17, 17);
    
     cursor: pointer;
+}
+@media(max-width: 311px) {
+    .main-content {
+        width: 190px;
+        height: 30px;
+    }
+
+    .task-list {
+        width: 190px;
+        height: 30px;
+    }
+
+    .task-lists {
+        width: 190px;
+        height: 30px;
+    }
+         .done {
+             font-size: 8px;
+    }
+    
+    .del {
+        font-size: 8px;
+    }
+    .del-after {
+        font-size: 8px;
+    }
+    .to-add-button{
+        font-size: 8px;
+    }
+
+
+}
+@media(min-width:311px) and (max-width:370px){
+    .main-content {
+        width: 250px;
+        height: 30px;
+    }
+
+    .task-list {
+        width: 250px;
+        height: 30px;
+    }
+
+    .task-lists {
+        width: 250px;
+        height: 30px;
+    }
+         .done {
+             font-size: 9px;
+         }
+    
+         .del {
+             font-size: 9px;
+         }
+         .del-after{
+            font-size: 9px;
+         }
+        .to-add-button {
+            font-size: 9px;
+        }
+}
+@media(min-width: 370px) and (max-width: 491px){
+    .main-content {
+            width: 300px;
+            height: 30px;
+        }
+    
+        .task-list {
+            width: 300px;
+            height: 30px;
+        }
+    
+        .task-lists {
+            width: 300px;
+            height: 30px;
+        }
+        .done{
+            font-size: 12px;
+        }
+                .del {
+                    font-size: 12px;
+                }
+                                 .del-after {
+                                     font-size: 9px;
+                                 }
+                
+                                 .to-add-button {
+                                     font-size: 9px;
+                                 }
+}
+@media(min-width: 491px) and (max-width:550px){
+   .main-content{
+    width: 380px;
+    height: 30px;
+   }
+   .task-list{
+    width: 380px;
+    height: 30px;
+   }
+   .task-lists{
+       width: 380px;
+       height: 30px;
+   }
+    
 }
