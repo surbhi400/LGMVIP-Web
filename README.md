@@ -3,9 +3,9 @@ A simple To-do-list website to plan your day.
 
 ## Screenshots
 The screenshot of the landing page of the website.
+![to-be-uploaded(1)](https://user-images.githubusercontent.com/77582783/190238988-31973557-dfc9-4fa4-ab7c-bd8a71272f91.png)
+![to-be-uploaded(2)](https://user-images.githubusercontent.com/77582783/190239097-e975440e-c4c0-41de-bd42-5a452343b1d3.png)
 
-![Background_image of to-do-list](https://user-images.githubusercontent.com/77582783/190100063-e0e75e06-57a4-4eb5-ad29-4ce461afe9f3.png)
-![Background_image of to-do-list(1)](https://user-images.githubusercontent.com/77582783/190100113-ae4a0159-671d-430d-a8dd-e894368e3a96.png)
 
 
 ## Tech Stack Used.
